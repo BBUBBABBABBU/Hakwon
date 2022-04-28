@@ -1,0 +1,26 @@
+{
+  "name": "hakwon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "start:dev": "nodemon --watch src/ src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BBUBBABBABBU/Hakwon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BBUBBABBABBU/Hakwon/issues"
+  },
+  "homepage": "https://github.com/BBUBBABBABBU/Hakwon#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.3",
+    "helmet": "^5.0.2"
+  }
+}
